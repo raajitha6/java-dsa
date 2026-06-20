@@ -7,11 +7,9 @@ class Main {
         int k=2;
         int l=0,r=n-1;
         int idx=-1;
-        boolean f=false;
         while(l<=r){
             int m=(l+r)/2;
             if(arr[m]==k){
-                f=true;
                 idx=m;
                 r=m-1;
                 
