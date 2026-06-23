@@ -15,7 +15,7 @@ class Solution {
         while(n-->1){
             f=f.next;
             if(f.next==null){
-                return head.next;
+                return head.next; //it means n points to the first node of linked list
             }
         }
         while(f.next.next!=null){
